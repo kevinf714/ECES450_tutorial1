@@ -1,0 +1,919 @@
+INFO:    User not listed in /etc/subuid, trying root-mapped namespace
+INFO:    Using fakeroot command combined with root-mapped namespace
+INFO:    Environment variable SINGULARITYENV_containerdir is set, but APPTAINERENV_containerdir is preferred
+--2025-10-20 11:43:35--  https://docs.qiime2.org/jupyterbooks/cancer-microbiome-intervention-tutorial/data/030-tutorial-downstream/010-filtering/feature-table.qza
+Resolving docs.qiime2.org (docs.qiime2.org)... 172.67.186.144, 104.21.84.49, 2606:4700:3035::ac43:ba90, ...
+Connecting to docs.qiime2.org (docs.qiime2.org)|172.67.186.144|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6907631 (6.6M) [application/octet-stream]
+Saving to: ‘feature-table.qza’
+
+     0K .......... .......... .......... .......... ..........  0%  546K 12s
+    50K .......... .......... .......... .......... ..........  1%  523K 12s
+   100K .......... .......... .......... .......... ..........  2%  349M 8s
+   150K .......... .......... .......... .......... ..........  2%  302M 6s
+   200K .......... .......... .......... .......... ..........  3%  533K 7s
+   250K .......... .......... .......... .......... ..........  4%  120M 6s
+   300K .......... .......... .......... .......... ..........  5% 80.0M 5s
+   350K .......... .......... .......... .......... ..........  5%  173M 4s
+   400K .......... .......... .......... .......... ..........  6%  531K 5s
+   450K .......... .......... .......... .......... ..........  7%  460M 5s
+   500K .......... .......... .......... .......... ..........  8%  321M 4s
+   550K .......... .......... .......... .......... ..........  8% 85.6M 4s
+   600K .......... .......... .......... .......... ..........  9%  373M 4s
+   650K .......... .......... .......... .......... .......... 10% 45.8M 3s
+   700K .......... .......... .......... .......... .......... 11%  296M 3s
+   750K .......... .......... .......... .......... .......... 11%  130M 3s
+   800K .......... .......... .......... .......... .......... 12%  122M 3s
+   850K .......... .......... .......... .......... .......... 13%  546K 3s
+   900K .......... .......... .......... .......... .......... 14%  438M 3s
+   950K .......... .......... .......... .......... .......... 14%  359M 3s
+  1000K .......... .......... .......... .......... .......... 15%  267M 3s
+  1050K .......... .......... .......... .......... .......... 16%  233M 2s
+  1100K .......... .......... .......... .......... .......... 17%  201M 2s
+  1150K .......... .......... .......... .......... .......... 17%  101M 2s
+  1200K .......... .......... .......... .......... .......... 18%  280M 2s
+  1250K .......... .......... .......... .......... .......... 19%  217M 2s
+  1300K .......... .......... .......... .......... .......... 20%  162M 2s
+  1350K .......... .......... .......... .......... .......... 20%  237M 2s
+  1400K .......... .......... .......... .......... .......... 21%  223M 2s
+  1450K .......... .......... .......... .......... .......... 22%  188M 2s
+  1500K .......... .......... .......... .......... .......... 22%  106M 2s
+  1550K .......... .......... .......... .......... .......... 23%  158M 2s
+  1600K .......... .......... .......... .......... .......... 24%  267M 1s
+  1650K .......... .......... .......... .......... .......... 25% 40.6M 1s
+  1700K .......... .......... .......... .......... .......... 25%  162M 1s
+  1750K .......... .......... .......... .......... .......... 26%  560K 2s
+  1800K .......... .......... .......... .......... .......... 27% 58.8M 1s
+  1850K .......... .......... .......... .......... .......... 28%  292M 1s
+  1900K .......... .......... .......... .......... .......... 28%  500M 1s
+  1950K .......... .......... .......... .......... .......... 29%  233M 1s
+  2000K .......... .......... .......... .......... .......... 30%  104M 1s
+  2050K .......... .......... .......... .......... .......... 31%  162M 1s
+  2100K .......... .......... .......... .......... .......... 31%  276M 1s
+  2150K .......... .......... .......... .......... .......... 32%  508M 1s
+  2200K .......... .......... .......... .......... .......... 33%  143M 1s
+  2250K .......... .......... .......... .......... .......... 34%  124M 1s
+  2300K .......... .......... .......... .......... .......... 34%  149M 1s
+  2350K .......... .......... .......... .......... .......... 35%  402M 1s
+  2400K .......... .......... .......... .......... .......... 36%  368M 1s
+  2450K .......... .......... .......... .......... .......... 37%  439M 1s
+  2500K .......... .......... .......... .......... .......... 37%  387M 1s
+  2550K .......... .......... .......... .......... .......... 38%  406M 1s
+  2600K .......... .......... .......... .......... .......... 39%  562M 1s
+  2650K .......... .......... .......... .......... .......... 40%  215M 1s
+  2700K .......... .......... .......... .......... .......... 40%  254M 1s
+  2750K .......... .......... .......... .......... .......... 41%  192M 1s
+  2800K .......... .......... .......... .......... .......... 42%  285M 1s
+  2850K .......... .......... .......... .......... .......... 42%  478M 1s
+  2900K .......... .......... .......... .......... .......... 43%  115M 1s
+  2950K .......... .......... .......... .......... .......... 44%  194M 1s
+  3000K .......... .......... .......... .......... .......... 45%  375M 1s
+  3050K .......... .......... .......... .......... .......... 45%  393M 1s
+  3100K .......... .......... .......... .......... .......... 46%  264M 1s
+  3150K .......... .......... .......... .......... .......... 47%  323M 1s
+  3200K .......... .......... .......... .......... .......... 48%  474M 1s
+  3250K .......... .......... .......... .......... .......... 48%  359M 1s
+  3300K .......... .......... .......... .......... .......... 49%  396M 1s
+  3350K .......... .......... .......... .......... .......... 50%  398M 1s
+  3400K .......... .......... .......... .......... .......... 51%  351M 1s
+  3450K .......... .......... .......... .......... .......... 51%  438M 1s
+  3500K .......... .......... .......... .......... .......... 52% 1.37M 1s
+  3550K .......... .......... .......... .......... .......... 53%  946K 1s
+  3600K .......... .......... .......... .......... .......... 54%  438M 1s
+  3650K .......... .......... .......... .......... .......... 54%  471M 1s
+  3700K .......... .......... .......... .......... .......... 55%  512M 1s
+  3750K .......... .......... .......... .......... .......... 56%  543M 1s
+  3800K .......... .......... .......... .......... .......... 57%  519M 0s
+  3850K .......... .......... .......... .......... .......... 57%  344M 0s
+  3900K .......... .......... .......... .......... .......... 58%  358M 0s
+  3950K .......... .......... .......... .......... .......... 59%  210M 0s
+  4000K .......... .......... .......... .......... .......... 60%  518M 0s
+  4050K .......... .......... .......... .......... .......... 60% 55.0M 0s
+  4100K .......... .......... .......... .......... .......... 61%  444M 0s
+  4150K .......... .......... .......... .......... .......... 62%  369M 0s
+  4200K .......... .......... .......... .......... .......... 63%  300M 0s
+  4250K .......... .......... .......... .......... .......... 63%  139M 0s
+  4300K .......... .......... .......... .......... .......... 64%  539M 0s
+  4350K .......... .......... .......... .......... .......... 65%  284M 0s
+  4400K .......... .......... .......... .......... .......... 65%  233M 0s
+  4450K .......... .......... .......... .......... .......... 66%  249M 0s
+  4500K .......... .......... .......... .......... .......... 67%  372M 0s
+  4550K .......... .......... .......... .......... .......... 68%  505M 0s
+  4600K .......... .......... .......... .......... .......... 68%  546M 0s
+  4650K .......... .......... .......... .......... .......... 69%  535M 0s
+  4700K .......... .......... .......... .......... .......... 70%  208M 0s
+  4750K .......... .......... .......... .......... .......... 71%  105M 0s
+  4800K .......... .......... .......... .......... .......... 71%  277M 0s
+  4850K .......... .......... .......... .......... .......... 72%  219M 0s
+  4900K .......... .......... .......... .......... .......... 73%  486M 0s
+  4950K .......... .......... .......... .......... .......... 74%  196M 0s
+  5000K .......... .......... .......... .......... .......... 74%  431M 0s
+  5050K .......... .......... .......... .......... .......... 75%  176M 0s
+  5100K .......... .......... .......... .......... .......... 76%  164M 0s
+  5150K .......... .......... .......... .......... .......... 77% 57.7M 0s
+  5200K .......... .......... .......... .......... .......... 77%  178M 0s
+  5250K .......... .......... .......... .......... .......... 78%  229M 0s
+  5300K .......... .......... .......... .......... .......... 79%  259M 0s
+  5350K .......... .......... .......... .......... .......... 80%  419M 0s
+  5400K .......... .......... .......... .......... .......... 80%  522M 0s
+  5450K .......... .......... .......... .......... .......... 81%  504M 0s
+  5500K .......... .......... .......... .......... .......... 82%  508M 0s
+  5550K .......... .......... .......... .......... .......... 83%  349M 0s
+  5600K .......... .......... .......... .......... .......... 83%  394M 0s
+  5650K .......... .......... .......... .......... .......... 84%  429M 0s
+  5700K .......... .......... .......... .......... .......... 85%  440M 0s
+  5750K .......... .......... .......... .......... .......... 85%  337M 0s
+  5800K .......... .......... .......... .......... .......... 86%  162M 0s
+  5850K .......... .......... .......... .......... .......... 87%  527M 0s
+  5900K .......... .......... .......... .......... .......... 88%  484M 0s
+  5950K .......... .......... .......... .......... .......... 88%  337M 0s
+  6000K .......... .......... .......... .......... .......... 89%  287M 0s
+  6050K .......... .......... .......... .......... .......... 90%  481M 0s
+  6100K .......... .......... .......... .......... .......... 91% 67.3M 0s
+  6150K .......... .......... .......... .......... .......... 91%  148M 0s
+  6200K .......... .......... .......... .......... .......... 92%  305M 0s
+  6250K .......... .......... .......... .......... .......... 93%  351M 0s
+  6300K .......... .......... .......... .......... .......... 94%  514M 0s
+  6350K .......... .......... .......... .......... .......... 94%  376M 0s
+  6400K .......... .......... .......... .......... .......... 95%  506M 0s
+  6450K .......... .......... .......... .......... .......... 96%  490M 0s
+  6500K .......... .......... .......... .......... .......... 97% 99.4M 0s
+  6550K .......... .......... .......... .......... .......... 97%  398M 0s
+  6600K .......... .......... .......... .......... .......... 98%  453M 0s
+  6650K .......... .......... .......... .......... .......... 99%  369M 0s
+  6700K .......... .......... .......... .......... .....     100%  416M=0.7s
+
+2025-10-20 11:43:36 (9.78 MB/s) - ‘feature-table.qza’ saved [6907631/6907631]
+
+--2025-10-20 11:43:36--  https://docs.qiime2.org/jupyterbooks/cancer-microbiome-intervention-tutorial/data/030-tutorial-downstream/010-filtering/rep-seqs.qza
+Resolving docs.qiime2.org (docs.qiime2.org)... 172.67.186.144, 104.21.84.49, 2606:4700:3035::ac43:ba90, ...
+Connecting to docs.qiime2.org (docs.qiime2.org)|172.67.186.144|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1076460 (1.0M) [application/octet-stream]
+Saving to: ‘rep-seqs.qza’
+
+     0K .......... .......... .......... .......... ..........  4%  560K 2s
+    50K .......... .......... .......... .......... ..........  9%  565K 2s
+   100K .......... .......... .......... .......... .......... 14%  164M 1s
+   150K .......... .......... .......... .......... .......... 19% 87.8M 1s
+   200K .......... .......... .......... .......... .......... 23%  562K 1s
+   250K .......... .......... .......... .......... .......... 28% 97.0M 1s
+   300K .......... .......... .......... .......... .......... 33% 98.9M 1s
+   350K .......... .......... .......... .......... .......... 38% 88.1M 0s
+   400K .......... .......... .......... .......... .......... 42%  565K 0s
+   450K .......... .......... .......... .......... .......... 47% 15.7M 0s
+   500K .......... .......... .......... .......... .......... 52%  167M 0s
+   550K .......... .......... .......... .......... .......... 57% 82.5M 0s
+   600K .......... .......... .......... .......... .......... 61% 71.3M 0s
+   650K .......... .......... .......... .......... .......... 66%  210M 0s
+   700K .......... .......... .......... .......... .......... 71%  114M 0s
+   750K .......... .......... .......... .......... .......... 76% 73.4M 0s
+   800K .......... .......... .......... .......... .......... 80%  100M 0s
+   850K .......... .......... .......... .......... .......... 85%  598K 0s
+   900K .......... .......... .......... .......... .......... 90% 28.4M 0s
+   950K .......... .......... .......... .......... .......... 95%  169M 0s
+  1000K .......... .......... .......... .......... .......... 99%  383M 0s
+  1050K .                                                     100% 2.29T=0.4s
+
+2025-10-20 11:43:37 (2.28 MB/s) - ‘rep-seqs.qza’ saved [1076460/1076460]
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Saved Visualization to: rep-seqs.qzv
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Usage: qiime feature-table filter-features [OPTIONS]
+
+  Filter features from table based on frequency and/or metadata. Any samples
+  with a frequency of zero after feature filtering will also be removed.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[Frequency]
+                         The feature table from which features should be
+                         filtered.                                  [required]
+Parameters:
+  --p-min-frequency INTEGER
+                         The minimum total frequency that a feature must have
+                         to be retained.                          [default: 0]
+  --p-max-frequency INTEGER
+                         The maximum total frequency that a feature can have
+                         to be retained. If no value is provided this will
+                         default to infinity (i.e., no maximum frequency
+                         filter will be applied).                   [optional]
+  --p-min-samples INTEGER
+                         The minimum number of samples that a feature must be
+                         observed in to be retained.              [default: 0]
+  --p-max-samples INTEGER
+                         The maximum number of samples that a feature can be
+                         observed in to be retained. If no value is provided
+                         this will default to infinity (i.e., no maximum
+                         sample filter will be applied).            [optional]
+  --m-metadata-file METADATA...
+    (multiple            Feature metadata used with `where` parameter when
+     arguments will be   selecting features to retain, or with `exclude-ids`
+     merged)             when selecting features to discard.        [optional]
+  --p-where TEXT         SQLite WHERE clause specifying feature metadata
+                         criteria that must be met to be included in the
+                         filtered feature table. If not provided, all features
+                         in `metadata` that are also in the feature table will
+                         be retained.                               [optional]
+  --p-exclude-ids / --p-no-exclude-ids
+                         If true, the features selected by `metadata` or
+                         `where` parameters will be excluded from the filtered
+                         table instead of being retained.     [default: False]
+  --p-filter-empty-samples / --p-no-filter-empty-samples
+                         If true, drop any samples where none of the retained
+                         features are present.                 [default: True]
+  --p-allow-empty-table / --p-no-allow-empty-table
+                         If true, the filtered table may be empty. Default
+                         behavior is to raise an error if the filtered table
+                         is empty.                            [default: False]
+Outputs:
+  --o-filtered-table ARTIFACT FeatureTable[Frequency]
+                         The resulting feature table filtered by feature.
+                                                                    [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --use-cache DIRECTORY  Specify the cache to be used for the intermediate
+                         work of this action. If not provided, the default
+                         cache under $TMP/qiime2/<uname> will be used.
+                         IMPORTANT FOR HPC USERS: If you are on an HPC system
+                         and are using parallel execution it is important to
+                         set this to a location that is globally accessible to
+                         all nodes in the cluster.
+  --help                 Show this message and exit.
+
+Examples:
+  # ### example: filter features min samples
+  qiime feature-table filter-features \
+    --i-table feature-table.qza \
+    --p-min-samples 2 \
+    --o-filtered-table filtered-table.qza
+  
+  # ### example: filter features sequences
+  # Retain only features that are represented in the collection of sequences
+  # provided as metadata. This is useful, for example, for removing sequences
+  # that are identified as chimeric. To learn about using Artifacts as
+  # Metadata, as is performed here, see https://use.qiime2.org/en/latest/how-
+  # to-guides/artifacts-as-metadata.html
+  qiime feature-table filter-features \
+    --i-table feature-table.qza \
+    --m-metadata-file sequences.qza \
+    --o-filtered-table filtered-table.qza
+  
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-table': filtered-table-1.qza does not exist.
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Usage: qiime feature-table filter-seqs [OPTIONS]
+
+  Filter features from sequences based on a feature table or metadata. This
+  method can filter based on ids in a table or a metadata file, but not both
+  (i.e., the table and metadata options are mutually exclusive).
+
+Inputs:
+  --i-data ARTIFACT FeatureData[Sequence¹ | AlignedSequence²]
+                         The sequences from which features should be
+                         filtered.                                  [required]
+  --i-table ARTIFACT FeatureTable[Frequency]
+                         Table containing feature ids used for id-based
+                         filtering.                                 [optional]
+Parameters:
+  --m-metadata-file METADATA...
+    (multiple            Feature metadata used for id-based filtering, with
+     arguments will be   `where` parameter when selecting features to retain,
+     merged)             or with `exclude-ids` when selecting features to
+                         discard.                                   [optional]
+  --p-where TEXT         SQLite WHERE clause specifying feature metadata
+                         criteria that must be met to be included in the
+                         filtered feature table. If not provided, all features
+                         in `metadata` that are also in the sequences will be
+                         retained.                                  [optional]
+  --p-exclude-ids / --p-no-exclude-ids
+                         If true, the features selected by the `metadata`
+                         (with or without the `where` parameter) or `table`
+                         parameter will be excluded from the filtered
+                         sequences instead of being retained. [default: False]
+Outputs:
+  --o-filtered-data ARTIFACT FeatureData[Sequence¹ | AlignedSequence²]
+                         The resulting filtered sequences.          [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --use-cache DIRECTORY  Specify the cache to be used for the intermediate
+                         work of this action. If not provided, the default
+                         cache under $TMP/qiime2/<uname> will be used.
+                         IMPORTANT FOR HPC USERS: If you are on an HPC system
+                         and are using parallel execution it is important to
+                         set this to a location that is globally accessible to
+                         all nodes in the cluster.
+  --help                 Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-table': filtered-table-2.qza does not exist.
+--2025-10-20 11:47:24--  https://docs.qiime2.org/jupyterbooks/cancer-microbiome-intervention-tutorial/data/030-tutorial-downstream/020-taxonomy/gg-13-8-99-515-806-nb-classifier.qza
+Resolving docs.qiime2.org (docs.qiime2.org)... 172.67.186.144, 104.21.84.49, 2606:4700:3035::6815:5431, ...
+Connecting to docs.qiime2.org (docs.qiime2.org)|172.67.186.144|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2334033 (2.2M) [application/octet-stream]
+Saving to: ‘gg-13-8-99-515-806-nb-classifier.qza’
+
+     0K .......... .......... .......... .......... ..........  2%  535K 4s
+    50K .......... .......... .......... .......... ..........  4%  519K 4s
+   100K .......... .......... .......... .......... ..........  6% 90.7M 3s
+   150K .......... .......... .......... .......... ..........  8% 28.3M 2s
+   200K .......... .......... .......... .......... .......... 10%  523K 2s
+   250K .......... .......... .......... .......... .......... 13%  124M 2s
+   300K .......... .......... .......... .......... .......... 15%  124M 2s
+   350K .......... .......... .......... .......... .......... 17%  100M 1s
+   400K .......... .......... .......... .......... .......... 19%  524K 2s
+   450K .......... .......... .......... .......... .......... 21%  408M 1s
+   500K .......... .......... .......... .......... .......... 24%  142M 1s
+   550K .......... .......... .......... .......... .......... 26% 91.0M 1s
+   600K .......... .......... .......... .......... .......... 28% 87.7M 1s
+   650K .......... .......... .......... .......... .......... 30% 83.6M 1s
+   700K .......... .......... .......... .......... .......... 32%  122M 1s
+   750K .......... .......... .......... .......... .......... 35% 84.0M 1s
+   800K .......... .......... .......... .......... .......... 37%  223M 1s
+   850K .......... .......... .......... .......... .......... 39%  550K 1s
+   900K .......... .......... .......... .......... .......... 41%  405M 1s
+   950K .......... .......... .......... .......... .......... 43%  115M 1s
+  1000K .......... .......... .......... .......... .......... 46%  175M 1s
+  1050K .......... .......... .......... .......... .......... 48% 71.6M 1s
+  1100K .......... .......... .......... .......... .......... 50%  342M 0s
+  1150K .......... .......... .......... .......... .......... 52% 80.6M 0s
+  1200K .......... .......... .......... .......... .......... 54%  210M 0s
+  1250K .......... .......... .......... .......... .......... 57%  114M 0s
+  1300K .......... .......... .......... .......... .......... 59%  153M 0s
+  1350K .......... .......... .......... .......... .......... 61%  221M 0s
+  1400K .......... .......... .......... .......... .......... 63%  228M 0s
+  1450K .......... .......... .......... .......... .......... 65%  348M 0s
+  1500K .......... .......... .......... .......... .......... 68%  197M 0s
+  1550K .......... .......... .......... .......... .......... 70%  144M 0s
+  1600K .......... .......... .......... .......... .......... 72%  279M 0s
+  1650K .......... .......... .......... .......... .......... 74%  216M 0s
+  1700K .......... .......... .......... .......... .......... 76%  257M 0s
+  1750K .......... .......... .......... .......... .......... 78%  541K 0s
+  1800K .......... .......... .......... .......... .......... 81%  247M 0s
+  1850K .......... .......... .......... .......... .......... 83%  567M 0s
+  1900K .......... .......... .......... .......... .......... 85%  235M 0s
+  1950K .......... .......... .......... .......... .......... 87%  286M 0s
+  2000K .......... .......... .......... .......... .......... 89%  550M 0s
+  2050K .......... .......... .......... .......... .......... 92% 58.2M 0s
+  2100K .......... .......... .......... .......... .......... 94%  554M 0s
+  2150K .......... .......... .......... .......... .......... 96%  434M 0s
+  2200K .......... .......... .......... .......... .......... 98%  578M 0s
+  2250K .......... .......... .........                       100%  521M=0.6s
+
+2025-10-20 11:47:26 (3.85 MB/s) - ‘gg-13-8-99-515-806-nb-classifier.qza’ saved [2334033/2334033]
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Usage: qiime feature-classifier classify-sklearn [OPTIONS]
+
+  Classify reads by taxon using a fitted classifier.
+
+Inputs:
+  --i-reads ARTIFACT FeatureData[Sequence]
+                         The feature data to be classified.         [required]
+  --i-classifier ARTIFACT
+    TaxonomicClassifier  The taxonomic classifier for classifying the reads.
+                                                                    [required]
+Parameters:
+  --p-reads-per-batch VALUE Int % Range(1, None) | Str % Choices('auto')
+                         Number of reads to process in each batch. If "auto",
+                         this parameter is autoscaled to min( number of query
+                         sequences / n-jobs, 20000).         [default: 'auto']
+  --p-n-jobs NTHREADS    The maximum number of concurrent worker processes.
+                         If 0 all CPUs are used. If 1 is given, no parallel
+                         computing code is used at all, which is useful for
+                         debugging.                               [default: 1]
+  --p-pre-dispatch TEXT  "all" or expression, as in "3*n_jobs". The number of
+                         batches (of tasks) to be pre-dispatched.
+                                                         [default: '2*n_jobs']
+  --p-confidence VALUE Float % Range(0, 1, inclusive_end=True) | Str %
+    Choices('disable')   Confidence threshold for limiting taxonomic depth.
+                         Set to "disable" to disable confidence calculation,
+                         or 0 to calculate confidence but not apply it to
+                         limit the taxonomic depth of the assignments.
+                                                                [default: 0.7]
+  --p-read-orientation TEXT Choices('same', 'reverse-complement', 'auto',
+    'both')              Direction of reads with respect to reference
+                         sequences. same will cause reads to be classified
+                         unchanged; reverse-complement will cause reads to be
+                         reversed and complemented prior to classification.
+                         Both will classify sequences unchanged and in
+                         reverse-complement and retain the classification with
+                         higher confidence. auto will autodetect orientation
+                         based on the confidence estimates for the first 100
+                         reads.                              [default: 'auto']
+Outputs:
+  --o-classification ARTIFACT FeatureData[Taxonomy]
+                                                                    [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --use-cache DIRECTORY  Specify the cache to be used for the intermediate
+                         work of this action. If not provided, the default
+                         cache under $TMP/qiime2/<uname> will be used.
+                         IMPORTANT FOR HPC USERS: If you are on an HPC system
+                         and are using parallel execution it is important to
+                         set this to a location that is globally accessible to
+                         all nodes in the cluster.
+  --help                 Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-reads': filtered-sequences-1.qza does not exist.
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file taxonomy.qza as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): taxonomy.qza
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Usage: qiime taxa filter-table [OPTIONS]
+
+  This method filters features from a table based on their taxonomic
+  annotations. Features can be retained in the resulting table by specifying
+  one or more include search terms, and can be filtered out of the resulting
+  table by specifying one or more exclude search terms. If both include and
+  exclude are provided, the inclusion critera will be applied before the
+  exclusion critera. Either include or exclude terms (or both) must be
+  provided. Any samples that have a total frequency of zero after filtering
+  will be removed from the resulting table.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[Frequency¹ | PresenceAbsence²]
+                         Feature table to be filtered.              [required]
+  --i-taxonomy ARTIFACT FeatureData[Taxonomy]
+                         Taxonomic annotations for features in the provided
+                         feature table. All features in the feature table must
+                         have a corresponding taxonomic annotation. Taxonomic
+                         annotations for features that are not present in the
+                         feature table will be ignored.             [required]
+Parameters:
+  --p-include TEXT       One or more search terms that indicate which taxa
+                         should be included in the resulting table. If
+                         providing more than one term, terms should be
+                         delimited by the query-delimiter character. By
+                         default, all taxa will be included.        [optional]
+  --p-exclude TEXT       One or more search terms that indicate which taxa
+                         should be excluded from the resulting table. If
+                         providing more than one term, terms should be
+                         delimited by the query-delimiter character. By
+                         default, no taxa will be excluded.         [optional]
+  --p-query-delimiter TEXT
+                         The string used to delimit multiple search terms
+                         provided to include or exclude. This parameter should
+                         only need to be modified if the default delimiter (a
+                         comma) is used in the provided taxonomic annotations.
+                                                                [default: ',']
+  --p-mode TEXT Choices('exact', 'contains')
+                         Mode for determining if a search term matches a
+                         taxonomic annotation. "contains" requires that the
+                         annotation has the term as a substring; "exact"
+                         requires that the annotation is a perfect match to a
+                         search term.                    [default: 'contains']
+Outputs:
+  --o-filtered-table ARTIFACT FeatureTable[Frequency¹ | PresenceAbsence²]
+                         The taxonomy-filtered feature table.       [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --use-cache DIRECTORY  Specify the cache to be used for the intermediate
+                         work of this action. If not provided, the default
+                         cache under $TMP/qiime2/<uname> will be used.
+                         IMPORTANT FOR HPC USERS: If you are on an HPC system
+                         and are using parallel execution it is important to
+                         set this to a location that is globally accessible to
+                         all nodes in the cluster.
+  --help                 Show this message and exit.
+
+                  There were some problems with the command:                  
+ (1/2) Invalid value for '--i-table': filtered-table-2.qza does not exist.
+ (2/2) Invalid value for '--i-taxonomy': taxonomy.qza does not exist.
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Usage: qiime feature-table filter-samples [OPTIONS]
+
+  Filter samples from table based on frequency and/or metadata. Any features
+  with a frequency of zero after sample filtering will also be removed.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[Frequency¹ | RelativeFrequency² |
+    PresenceAbsence³ | Composition⁴]
+                         The feature table from which samples should be
+                         filtered.                                  [required]
+Parameters:
+  --p-min-frequency INTEGER
+                         The minimum total frequency that a sample must have
+                         to be retained.                          [default: 0]
+  --p-max-frequency INTEGER
+                         The maximum total frequency that a sample can have
+                         to be retained. If no value is provided this will
+                         default to infinity (i.e., no maximum frequency
+                         filter will be applied).                   [optional]
+  --p-min-features INTEGER
+                         The minimum number of features that a sample must
+                         have to be retained.                     [default: 0]
+  --p-max-features INTEGER
+                         The maximum number of features that a sample can
+                         have to be retained. If no value is provided this
+                         will default to infinity (i.e., no maximum feature
+                         filter will be applied).                   [optional]
+  --m-metadata-file METADATA...
+    (multiple            Sample metadata used with `where` parameter when
+     arguments will be   selecting samples to retain, or with `exclude-ids`
+     merged)             when selecting samples to discard.         [optional]
+  --p-where TEXT         SQLite WHERE clause specifying sample metadata
+                         criteria that must be met to be included in the
+                         filtered feature table. If not provided, all samples
+                         in `metadata` that are also in the feature table will
+                         be retained.                               [optional]
+  --p-exclude-ids / --p-no-exclude-ids
+                         If true, the samples selected by `metadata` or
+                         `where` parameters will be excluded from the filtered
+                         table instead of being retained.     [default: False]
+  --p-filter-empty-features / --p-no-filter-empty-features
+                         If true, features which are not present in any
+                         retained samples are dropped.         [default: True]
+  --p-allow-empty-table / --p-no-allow-empty-table
+                         If true, the filtered table may be empty. Default
+                         behavior is to raise an error if the filtered table
+                         is empty.                            [default: False]
+Outputs:
+  --o-filtered-table ARTIFACT FeatureTable[Frequency¹ | RelativeFrequency²
+    | PresenceAbsence³ | Composition⁴]
+                         The resulting feature table filtered by sample.
+                                                                    [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --use-cache DIRECTORY  Specify the cache to be used for the intermediate
+                         work of this action. If not provided, the default
+                         cache under $TMP/qiime2/<uname> will be used.
+                         IMPORTANT FOR HPC USERS: If you are on an HPC system
+                         and are using parallel execution it is important to
+                         set this to a location that is globally accessible to
+                         all nodes in the cluster.
+  --help                 Show this message and exit.
+
+Examples:
+  # ### example: filter to subject1
+  qiime feature-table filter-samples \
+    --i-table feature-table.qza \
+    --m-metadata-file sample-metadata.tsv \
+    --p-where '[subject]='"'"'subject-1'"'"'' \
+    --o-filtered-table filtered-table.qza
+  
+  # ### example: filter to skin
+  qiime feature-table filter-samples \
+    --i-table feature-table.qza \
+    --m-metadata-file sample-metadata.tsv \
+    --p-where '[body-site] IN ('"'"'left palm'"'"', '"'"'right palm'"'"')' \
+    --o-filtered-table filtered-table.qza
+  
+  # ### example: filter to subject1 gut
+  qiime feature-table filter-samples \
+    --i-table feature-table.qza \
+    --m-metadata-file sample-metadata.tsv \
+    --p-where '[subject]='"'"'subject-1'"'"' AND [body-site]='"'"'gut'"'"'' \
+    --o-filtered-table filtered-table.qza
+  
+  # ### example: filter to gut or abx
+  qiime feature-table filter-samples \
+    --i-table feature-table.qza \
+    --m-metadata-file sample-metadata.tsv \
+    --p-where '[body-site]='"'"'gut'"'"' OR [reported-antibiotic-usage]='"'"'Yes'"'"'' \
+    --o-filtered-table filtered-table.qza
+  
+  # ### example: filter to subject1 not gut
+  qiime feature-table filter-samples \
+    --i-table feature-table.qza \
+    --m-metadata-file sample-metadata.tsv \
+    --p-where '[subject]='"'"'subject-1'"'"' AND NOT [body-site]='"'"'gut'"'"'' \
+    --o-filtered-table filtered-table.qza
+  
+  # ### example: filter min features
+  qiime feature-table filter-samples \
+    --i-table feature-table.qza \
+    --p-min-features 10 \
+    --o-filtered-table filtered-table.qza
+  
+  # ### example: filter min frequency
+  qiime feature-table filter-samples \
+    --i-table feature-table.qza \
+    --p-min-frequency 1500 \
+    --o-filtered-table filtered-table.qza
+  
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-table': filtered-table-3.qza does not exist.
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Usage: qiime feature-table filter-seqs [OPTIONS]
+
+  Filter features from sequences based on a feature table or metadata. This
+  method can filter based on ids in a table or a metadata file, but not both
+  (i.e., the table and metadata options are mutually exclusive).
+
+Inputs:
+  --i-data ARTIFACT FeatureData[Sequence¹ | AlignedSequence²]
+                         The sequences from which features should be
+                         filtered.                                  [required]
+  --i-table ARTIFACT FeatureTable[Frequency]
+                         Table containing feature ids used for id-based
+                         filtering.                                 [optional]
+Parameters:
+  --m-metadata-file METADATA...
+    (multiple            Feature metadata used for id-based filtering, with
+     arguments will be   `where` parameter when selecting features to retain,
+     merged)             or with `exclude-ids` when selecting features to
+                         discard.                                   [optional]
+  --p-where TEXT         SQLite WHERE clause specifying feature metadata
+                         criteria that must be met to be included in the
+                         filtered feature table. If not provided, all features
+                         in `metadata` that are also in the sequences will be
+                         retained.                                  [optional]
+  --p-exclude-ids / --p-no-exclude-ids
+                         If true, the features selected by the `metadata`
+                         (with or without the `where` parameter) or `table`
+                         parameter will be excluded from the filtered
+                         sequences instead of being retained. [default: False]
+Outputs:
+  --o-filtered-data ARTIFACT FeatureData[Sequence¹ | AlignedSequence²]
+                         The resulting filtered sequences.          [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --use-cache DIRECTORY  Specify the cache to be used for the intermediate
+                         work of this action. If not provided, the default
+                         cache under $TMP/qiime2/<uname> will be used.
+                         IMPORTANT FOR HPC USERS: If you are on an HPC system
+                         and are using parallel execution it is important to
+                         set this to a location that is globally accessible to
+                         all nodes in the cluster.
+  --help                 Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-table': filtered-table-4.qza does not exist.
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Usage: qiime phylogeny align-to-tree-mafft-fasttree [OPTIONS]
+
+  This pipeline will start by creating a sequence alignment using MAFFT, after
+  which any alignment columns that are phylogenetically uninformative or
+  ambiguously aligned will be removed (masked). The resulting masked alignment
+  will be used to infer a phylogenetic tree and then subsequently rooted at
+  its midpoint. Output files from each step of the pipeline will be saved.
+  This includes both the unmasked and masked MAFFT alignment from q2-alignment
+  methods, and both the rooted and unrooted phylogenies from q2-phylogeny
+  methods.
+
+Inputs:
+  --i-sequences ARTIFACT FeatureData[Sequence]
+                          The sequences to be used for creating a fasttree
+                          based rooted phylogenetic tree.           [required]
+Parameters:
+  --p-n-threads NTHREADS  The number of threads. (Use `auto` to automatically
+                          use all available cores) This value is used when
+                          aligning the sequences and creating the tree with
+                          fasttree.                               [default: 1]
+  --p-mask-max-gap-frequency PROPORTION Range(0, 1, inclusive_end=True)
+                          The maximum relative frequency of gap characters in
+                          a column for the column to be retained. This
+                          relative frequency must be a number between 0.0 and
+                          1.0 (inclusive), where 0.0 retains only those
+                          columns without gap characters, and 1.0 retains all
+                          columns  regardless of gap character frequency. This
+                          value is used when masking the aligned sequences.
+                                                                [default: 1.0]
+  --p-mask-min-conservation PROPORTION Range(0, 1, inclusive_end=True)
+                          The minimum relative frequency of at least one
+                          non-gap character in a column for that column to be
+                          retained. This relative frequency must be a number
+                          between 0.0 and 1.0 (inclusive). For example, if a
+                          value of  0.4 is provided, a column will only be
+                          retained  if it contains at least one character that
+                          is present in at least 40% of the sequences. This
+                          value is used when masking the aligned sequences.
+                                                                [default: 0.4]
+  --p-parttree / --p-no-parttree
+                          This flag is required if the number of sequences
+                          being aligned are larger than 1000000. Disabled by
+                          default.                            [default: False]
+Outputs:
+  --o-alignment ARTIFACT FeatureData[AlignedSequence]
+                          The aligned sequences.                    [required]
+  --o-masked-alignment ARTIFACT FeatureData[AlignedSequence]
+                          The masked alignment.                     [required]
+  --o-tree ARTIFACT       The unrooted phylogenetic tree.
+    Phylogeny[Unrooted]                                             [required]
+  --o-rooted-tree ARTIFACT
+    Phylogeny[Rooted]     The rooted phylogenetic tree.             [required]
+Miscellaneous:
+  --output-dir PATH       Output unspecified results to a directory
+  --verbose / --quiet     Display verbose output to stdout and/or stderr
+                          during execution of this action. Or silence output
+                          if execution is successful (silence is golden).
+  --recycle-pool TEXT     Use a cache pool for pipeline resumption. QIIME 2
+                          will cache your results in this pool for reuse by
+                          future invocations. These pool are retained until
+                          deleted by the user. If not provided, QIIME 2 will
+                          create a pool which is automatically reused by
+                          invocations of the same action and removed if the
+                          action is successful. Note: these pools are local to
+                          the cache you are using.
+  --no-recycle            Do not recycle results from a previous failed
+                          pipeline run or save the results from this run for
+                          future recycling.
+  --parallel              Execute your action in parallel. This flag will use
+                          your default parallel config.
+  --parallel-config FILE  Execute your action in parallel using a config at
+                          the indicated path.
+  --example-data PATH     Write example data and exit.
+  --citations             Show citations and exit.
+  --use-cache DIRECTORY   Specify the cache to be used for the intermediate
+                          work of this action. If not provided, the default
+                          cache under $TMP/qiime2/<uname> will be used.
+                          IMPORTANT FOR HPC USERS: If you are on an HPC system
+                          and are using parallel execution it is important to
+                          set this to a location that is globally accessible
+                          to all nodes in the cluster.
+  --help                  Show this message and exit.
+
+Examples:
+  # ### example: align to tree mafft fasttree
+  qiime phylogeny align-to-tree-mafft-fasttree \
+    --i-sequences rep-seqs.qza \
+    --o-alignment aligned-rep-seqs.qza \
+    --o-masked-alignment masked-aligned-rep-seqs.qza \
+    --o-tree unrooted-tree.qza \
+    --o-rooted-tree rooted-tree.qza
+  
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--i-sequences': filtered-sequences-2.qza does not
+  exist.
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
+/opt/conda/envs/qiime2-amplicon-2025.7/lib/python3.10/site-packages/q2_demux/_summarize/_visualizer.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+There was an issue with loading the file sample-metadata.tsv as metadata:
+
+  Metadata file path doesn't exist, or the path points to something other than a file. Please check that the path exists, has read permissions, and points to a regular file (not a directory): sample-metadata.tsv
+
+  There may be more errors present in the metadata file. To get a full report, sample/feature metadata files can be validated with Keemei: https://keemei.qiime2.org
+
+  Find details on QIIME 2 metadata requirements here: https://docs.qiime2.org/2025.7/tutorials/metadata/
+
