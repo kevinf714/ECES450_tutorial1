@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 ### !!! CHANGE !!! the email address to your drexel email
-#SBATCH --mail-user=ktf47@drexel.edu
+#SBATCH --mail-user=cnp68@drexel.edu
 ### !!! CHANGE !!! the account - you need to consult with the professor
 #SBATCH --account=eces450650prj
 ### select number of nodes (usually you need only 1 node)
@@ -20,7 +20,7 @@
 #this deletes old output to run again
 /bin/rm -rf out_tmp*  core-metrics-results
 
-containerdir=/tutorial_1
+containerdir=/ECES450_tutorial1
 SINGULARITYENV_containerdir=${containerdir} singularity exec --fakeroot --bind .:/${containerdir},${TMP}:/tmp,${TMP}:${TMP} /ifs/groups/eces450650Grp/containers/qiime_amplicon_2025.7.sif bash ${containerdir}/tutorial_1.sh
 
 
